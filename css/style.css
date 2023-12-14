@@ -1,0 +1,134 @@
+#chart-area svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+height:50px;
+}
+
+.navbar-brand {
+height: 60px;
+padding: 5px 0px;
+}
+
+body {
+background-color: #f1f3f3
+}
+
+.axis {
+font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+fill: none;
+stroke: #D4D8DA;
+stroke-width: 2px;
+shape-rendering: crispEdges;
+}
+
+.line {
+fill: none;
+stroke-width: 2px;
+}
+
+.overlay {
+fill: none;
+pointer-events: all;
+}
+
+.focus circle {
+fill: #F1F3F3;
+stroke: #777;
+stroke-width: 3px;
+}
+
+.hover-line {
+stroke: #777;
+stroke-width: 2px;
+stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#chart-area {
+  width: 800px;
+  height: 400px;
+}
+
+#slider-container {
+  width: 800px;
+  margin: 20px auto;
+}
+
+#slider-div {
+  margin: 20px;
+}
+
+
+
+body {
+  background-color: #EEE;
+  font-family: Arial; 
+}
+
+#container {
+  display: grid;
+  justify-content: center;  
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 10px;
+  grid-template-areas: 
+      "div1 div2 div3"
+      "div4 div4 div4";
+}
+
+#div1 { background-color: lightgrey; grid-area: div1; }
+#div2 { background-color: lightblue; grid-area: div2; }
+#div3 { background-color: lightcoral; grid-area: div3; }
+#div4 { background-color: lightgreen; grid-area: div4; }
+
+
+
+
+
+
+
+#piechart-container svg {
+  background-color: transparent; /* Empty background */
+  width: 300px; /* Smaller width */
+  height: 300px; /* Smaller height */
+}
+
+#piechart-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust the height as needed */
+}
+
+.piechart-text {
+  font-size: 18px; /* Smaller text size */
+}
+
+
+#bar-chart {
+  margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+
+.tooltip {
+    background-color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+
+
+
